@@ -227,6 +227,7 @@ public class ControlCenter {
 			boolean canRetreat = random.nextBoolean();
 			if (!canRetreat) {
 				System.out.println("Intentas escapar, ¡pero no lo consigues!");
+				break;
 			} else {
 				System.out.println("¡Consigues escapar!");
 				return UtilsAndConstants.BATTLE_RESULT_RETREAT;
