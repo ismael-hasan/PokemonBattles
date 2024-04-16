@@ -1,0 +1,4 @@
+id, name, hp, mp, type, power, initial_skill
+0, Pikachu, 50, 50, 0, 30, 3
+1, Charmander, 60, 40, 3, 35, 3
+2, Bulbasur, 40, 60, 4, 25, 3

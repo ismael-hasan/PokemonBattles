@@ -1,0 +1,5 @@
+id, name, type, power_multiplier, cost
+0, impactrueno, 0, 1.5, 35
+1, mechero, 3, 1.5, 35
+2, enredar, 4, 1.5, 35
+3, golpetazo, 6, 1, 0
