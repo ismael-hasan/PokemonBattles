@@ -71,7 +71,7 @@ If a pokemon gets a new level, its hp and mp are replenished.
 The game finishes when all your pokemon are defeated, or if you finish the tournament (to be implemented). 
 
 ## File configuration
-The game uses 2 CSV file for configuration (comma-separated values, [CSV in Spanish wikipedia]{https://es.wikipedia.org/wiki/Valores_separados_por_comas}).
+The game uses 2 CSV file for configuration (comma-separated values, [CSV in Spanish wikipedia](https://es.wikipedia.org/wiki/Valores_separados_por_comas)).
 You can add more pokemons and skill via these files. Note that all of the skills referenced by the pokemons MUST exist.
  
 The first one is _resources/PokemonList.csv_: 
@@ -148,8 +148,8 @@ Choose the appropiate format for the file. Typical formats for configuration are
 property1=value
 name=pokemon game
 ```
-- [yml]{https://www.redhat.com/es/topics/automation/what-is-yaml} 
-- [JSON]{https://www.w3schools.com/whatis/whatis_json.asp}   
+- [yml](https://www.redhat.com/es/topics/automation/what-is-yaml) 
+- [JSON](https://www.w3schools.com/whatis/whatis_json.asp)
 
 
 ### Create skills with multiple types
