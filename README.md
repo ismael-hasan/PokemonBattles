@@ -126,6 +126,10 @@ The game is not finished! There are several tasks proposed; the recommendation i
 - Understand how the CSV files are read, and its contents stored in variables.
 - Understand what the GameStatus contains, and how it is used. For instance, the GameStatus contains a list of the pokemons that the player has, so each time we have to show the pokemon list we get it from the GameStatus. 
 - **Spend enough time doing all of the previous tasks**.
+- 
+
+### Fix a bug
+When you tried the game you may have realized that when several Pokemon participate in a fight, only the Pokemon selected first gets the XP - it is not shared among all as explained _Fight End_ . Try to fix this intentional (cough, cough) bug so it works as explained in that section. 
  
 ### Save/load game
 All of the info in the current game is stored in an object of type GameStatus. 
