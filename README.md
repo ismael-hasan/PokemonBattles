@@ -1,7 +1,7 @@
 # Pokemon fights 
 
 ## Description
-This is a pokemon-battle environment set up in Liceo.  
+This is a pokemon-battle environment set up in Liceo. The entry point of the game is the `ControlCenter` class.
 
 The main menu allows you to:  
 1. Start a new game
@@ -25,6 +25,7 @@ When you start a fight, you can choose a pokemon from your list to start.
 The battle will have rounds in which you do one action, and your opponent does one action. 
 
 Your options in the fight are: 
+
 0. Change your pokemon (beware, your opponent will attack the new pokemon).
 1. Retreat - there is a chance to be able to escape and end the fight.
 2. Heal pokemon - if you have potions, you can heal your pokemon. Beware, if you do not have potions you will lose the action!
@@ -71,8 +72,8 @@ If a pokemon gets a new level, its hp and mp are replenished.
 The game finishes when all your pokemon are defeated, or if you finish the tournament (to be implemented). 
 
 ## File configuration
-The game uses 2 CSV file for configuration (comma-separated values, [CSV in Spanish wikipedia](https://es.wikipedia.org/wiki/Valores_separados_por_comas)).
-You can add more pokemons and skill via these files. Note that all of the skills referenced by the pokemons MUST exist.
+The game uses 2 CSV file for configuration (comma-separated values, see [CSV in Spanish wikipedia](https://es.wikipedia.org/wiki/Valores_separados_por_comas)).
+You can add more pokemons and skills via these files. Note that all of the skills referenced by the pokemons MUST exist.
  
 The first one is _resources/PokemonList.csv_: 
 ```
@@ -82,7 +83,7 @@ id, name, hp, mp, type, power, initial_skill
 2, Bulbasur, 40, 60, 4, 25, 3
 ```
 
-The second one is _resources/SkillList.csv
+The second one is _resources/SkillList.csv_
 ```
 id, name, type, power_multiplier, cost
 0, impactrueno, 0, 1.5, 35
